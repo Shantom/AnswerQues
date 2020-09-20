@@ -8,4 +8,5 @@ Item::Item(QStringList data)
     op3 = data[3];
     op4 = data[4];
     ans = data[5];
+    inits = ChinesePY::ToChineseSpell(question);
 }

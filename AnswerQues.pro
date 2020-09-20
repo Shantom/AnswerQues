@@ -17,12 +17,15 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
     answer.cpp \
+    chinesepy.cpp \
     item.cpp \
     main.cpp \
+    strChineseFirstPY.cpp \
     widget.cpp
 
 HEADERS += \
     answer.h \
+    chinesepy.h \
     item.h \
     widget.h
 

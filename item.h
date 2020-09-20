@@ -2,6 +2,7 @@
 #define ITEM_H
 #include<QString>
 #include<QStringList>
+#include"chinesepy.h"
 
 class Item
 {
@@ -14,6 +15,7 @@ public:
     QString op3;
     QString op4;
     QString ans;
+    QString inits;
 private:
 
 
