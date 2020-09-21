@@ -8,7 +8,10 @@ class Answer
 {
 public:
     Answer();
+    ~Answer();
     bool isLoadSuccess = false;
+    QList<Item*>* getList(QChar ch);
+
 
 
 private:

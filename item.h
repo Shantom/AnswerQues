@@ -2,6 +2,7 @@
 #define ITEM_H
 #include<QString>
 #include<QStringList>
+#include<QTableWidgetItem>
 #include"chinesepy.h"
 
 class Item
@@ -16,6 +17,12 @@ public:
     QString op4;
     QString ans;
     QString inits;
+    QTableWidgetItem wItemQues;
+    QTableWidgetItem wItemOp1;
+    QTableWidgetItem wItemOp2;
+    QTableWidgetItem wItemOp3;
+    QTableWidgetItem wItemOp4;
+    QTableWidgetItem wItemAns;
 private:
 
 
