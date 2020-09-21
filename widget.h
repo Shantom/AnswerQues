@@ -21,6 +21,8 @@ public:
 private slots:
     void on_lineEdit_textEdited(const QString &arg1);
 
+    void on_tableWidget_cellDoubleClicked(int row, int column);
+
 private:
     Ui::Widget *ui;
     Answer answer;
